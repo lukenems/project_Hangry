@@ -200,6 +200,7 @@ header nav li {
     background-clip: content-box;
     background-size: cover;
     background-position: center;
+    border-radius: 10%;
 }
 
 .recent .grid li.small img {
@@ -212,7 +213,7 @@ header nav li {
 
 .grid p {
     text-align: center;
-    
+
 }
 
 @media (max-width: 800px) {
