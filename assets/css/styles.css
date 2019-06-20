@@ -210,13 +210,18 @@ header nav li {
     flex-basis: 70%;
 }
 
-@media (max-width: 1100px) {
+.grid p {
+    text-align: center;
+    
+}
+
+@media (max-width: 800px) {
     .recent .grid li.small img {
         flex-basis: 50%
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .recent .grid li.small img {
         flex-basis: 100%
     }
@@ -243,7 +248,7 @@ header nav li {
     margin: 25px 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .entrees .grid li {
         flex-basis: 100%;
         padding: 20px;
@@ -267,7 +272,7 @@ header nav li {
     padding-top: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .testimonials .quotes {
         font-size: 18px;
         margin: 15px 0;
@@ -304,7 +309,7 @@ header nav li {
     flex: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .contact form input {
         flex-basis: 100%;
         margin: 0 0 20px 0;
@@ -337,7 +342,7 @@ footer p {
   align-self: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     footer {
         flex-direction: column;
     }
